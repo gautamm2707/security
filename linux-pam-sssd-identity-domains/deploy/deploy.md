@@ -22,27 +22,27 @@ Using this stack we will be able to deploy  **Linux Server and Identity Domain**
 
 1. Once logged in to the OCI Console, navigate to **Developer Services** then select **Stacks** under **Resource Manager**. Now click on **Create Stack**
 
-    	![Stacks](./images/stacks.png "Stacks")
+    ![Stacks](./images/stacks.png "Stacks")
     	
-    	![Create-Stacks](./images/create-stacks.png "Create-Stacks")
+    ![Create-Stacks](./images/create-stacks.png "Create-Stacks")
  
 2. On the Create Stack Wizard, select the appropriate **.zip** or **folder** option, and then browse to upload the **Deploy** stack that you downloaded in the previous lab. Now click on **Next**
 
-    	![upload-zip](./images/upload-zip.png "upload-zip")
+    ![upload-zip](./images/upload-zip.png "upload-zip")
     	
-    	![stack-details](./images/stack-details.png "stack-details")
+    ![stack-details](./images/stack-details.png "stack-details")
     	
     **Note** The Stack Name and Compartment can be changed if required.
 
 3. Now, on the **Configure variables** section, choose the concerned compartment where the VCN resides in **Linux Instance Compartment** section, upload your **SSH Public Key**. Choose the respective **Availability Domain**, **VCN** and **Subnet** where the instance needs to be deployed.
 
-    	![linux-instance-details](./images/linux-instance-details.png "linux-instance-details")
+    ![linux-instance-details](./images/linux-instance-details.png "linux-instance-details")
     	
     **Note** SSH Public Key needs to generated as a prerequisites.	
     	
 4. In the **OCI Identity Domain** section, select the **Identity Domain Compartment** where the domain needs to be created. Then enter the name of the Identity Domain and provide details of the Administrator like **Admin Email Address** , **First Name** and **Last Name**.
 
-    	![identity-domain-details](./images/identity-domain-details.png "identity-domain-details")
+    ![identity-domain-details](./images/identity-domain-details.png "identity-domain-details")
     	
 5. Now on the **Review Details** check for the configurations and then click on **Create** . Make sure the **Run Apply** is selected.
 
@@ -73,4 +73,4 @@ In this Lab, we were able to successfully deploy and validate a Linux Server and
 ## Acknowledgements
 * **Author** - Gautam Mishra, Aqib Bhat
 * **Contributor** - Deepthi Shetty
-* **Last Updated By/Date** - Gautam Mishra Mar 2026
+* **Last Updated By/Date** - Gautam Mishra Apr 2026
