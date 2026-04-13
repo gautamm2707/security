@@ -22,7 +22,7 @@ This lab assumes you have:
 
     - [Stack1-Deploy.zip](https://github.com/gautamm2707/linux-pam-livelab/blob/main/Stack1%20-%20Deploy.zip)
     	
-    	- [Stack2-Configure.zip](https://github.com/gautamm2707/linux-pam-livelab/blob/main/Stack2%20-%20Configure.zip)
+    - [Stack2-Configure.zip](https://github.com/gautamm2707/linux-pam-livelab/blob/main/Stack2%20-%20Configure.zip)
 
 2. Save in your *downloads* folder.
 
@@ -68,4 +68,4 @@ You may now **proceed to the next lab.**
 ## Acknowledgements
 * **Author** - Gautam Mishra, Aqib Bhat
 * **Contributor** - Deepthi Shetty
-* **Last Updated By/Date** - Gautam Mishra Mar 2026
+* **Last Updated By/Date** - Gautam Mishra Apr 2026
